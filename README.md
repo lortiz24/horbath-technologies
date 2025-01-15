@@ -40,11 +40,11 @@ DATABASE=tu_base_de_datos    # El nombre de la base de datos donde se almacenar√
 
 
 # Endpoints
-- POST /products: Crear un nuevo producto.
-- GET /products: Obtener una lista de todos los productos.
-- GET /products/:id: Obtener los detalles de un producto por ID.
-- PATCH /products/:id: Actualizar un producto por ID.
-- DELETE /products/:id: Eliminar un producto por ID.
+- POST api/products: Crear un nuevo producto.
+- GET api/products: Obtener una lista de todos los productos.
+- GET api/products/:id: Obtener los detalles de un producto por ID.
+- PATCH api/products/:id: Actualizar un producto por ID.
+- DELETE api/products/:id: Eliminar un producto por ID.
 
 # Validaciones
 - El campo price debe ser un n√∫mero decimal positivo.
