@@ -18,7 +18,7 @@ export class Product {
   name: string;
 
   @ApiProperty()
-  @Column({ type: 'text', nullable: true })
+  @Column({ type: 'text', nullable: true, default: '' })
   description?: string;
 
   @ApiProperty()
@@ -31,9 +31,9 @@ export class Product {
 
   @ApiProperty()
   @CreateDateColumn({ type: 'timestamp' })
-  createdAt: Date;
+  createAt: Date;
 
   @ApiProperty()
   @UpdateDateColumn({ type: 'timestamp' })
-  updatedAt: Date;
+  updateAt: Date;
 }
