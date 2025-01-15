@@ -38,7 +38,6 @@ DATABASE=tu_base_de_datos    # El nombre de la base de datos donde se almacenar�
 - yarn start:dev
 
 
-
 # Endpoints
 - POST api/products: Crear un nuevo producto.
 - GET api/products: Obtener una lista de todos los productos.
@@ -54,7 +53,5 @@ DATABASE=tu_base_de_datos    # El nombre de la base de datos donde se almacenar�
 # Documentación de la API
 La API está documentada con Swagger y disponible en la siguiente URL una vez el servidor esté corriendo:
 
-bash
-Copiar código
 http://localhost:3000/api
 
